@@ -409,4 +409,18 @@ export const GlobalStyles = createGlobalStyle`
   th {
     vertical-align: middle;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    direction: rtl;
+  }
+
+  code, pre {
+    direction: ltr;
+  }
 `

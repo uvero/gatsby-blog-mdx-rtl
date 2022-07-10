@@ -57,7 +57,8 @@ const StyledCollapsableTitleWrap = styled.div`
   margin: 1rem 0;
   button {
     color: ${() => setThemeVars(theme.fontColorLight, theme.fontColorDark)};
-  }
+  };
+  direction: rtl;
 `
 
 const StyledIconWrapper = styled.span`

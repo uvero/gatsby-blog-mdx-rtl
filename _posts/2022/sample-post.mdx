@@ -1,0 +1,129 @@
+---
+title: פוסט נוסף לדגומה
+date: 2020-07-09
+tags: [קטגוריה, Markdown]
+excerpt: דוגמה של markdwon
+---
+
+<Warning>
+
+למדריך על יצירת פוסט, ראו [כאן](https://gatsby-blog-mdx.now.sh/2020/05/3-create-post)
+
+</Warning>
+
+<!-- Headings -->
+
+# כותרת רמה 1
+
+## כותרת רמה 2
+
+### כותרת רמה 3
+
+#### כותרת רמה 4
+
+##### כותרת רמה 5
+
+###### כותרת רמה 6
+
+<!-- Texts -->
+
+Here's some basic text
+
+Here's some _italics_
+
+Here's some **bold** text
+
+Here's some **_bold italics_** text
+
+Here's some ~~strikethrough~~ text
+
+טקסט בסיסי
+
+טקסט *נטוי*
+
+טקסט **מודגש**
+
+טקסט ***מודגש נטוי***
+
+טקסט ~~מחוק עם קו חוצה~~ 
+
+<!-- Link -->
+
+דוגמה [ללינק](https://gatsby-blog-mdx.now.sh/2020/05/3-create-post)
+
+<!-- Image -->
+
+![](../images/somePhoto.jpeg)
+
+<!-- Any HTML -->
+
+<div style="color: pink"><span>כאן אפשר להשתמש ב-HTML כללי</span></div>
+
+<!-- Lists - numbered -->
+
+1. רשימה
+2. ממסופרת
+
+<!-- Lists - unordered -->
+
+- רשימה
+- בלתי
+- ממוספרת
+
+<!-- blockquote -->
+
+> בלוק ציטוטמרקוס למוצר ללטינית לו בלטינית למטכין לורםאיפסום לייצוג הטוב גופן, מנורךגולר ליץ במלל סילקוף בתחום לעמודים גק מונפרד הפרסום במאה. ושבעגט עמחליף המלל במיוחד רק הטקסט התאמת המלל הדפוס לא, של בלורם קונסקטטור
+>
+
+<!-- Nested blockquote -->
+
+> > נסקטטור מתי המילים לורם והפרסום ושבעגט מקורו הלורם. בלוקריה סולגק בשל מקום גופנים הטקסט מקורו של לפרומי בעברית, דפוס וכן והתאמתם איפסום הוא הנוסח.
+
+> > > ורית כלי מקום משמעות. היא הסטנדרטי אדיפיסינג על. שאמור ללורם אדנדום איפסום מקור ברורק, הטקסט המעוצבים הלורם לורם של כל לורם הפסקה בראיט איפסום. והרע בקיצור צמלח איפסום מלל קיקרו בליא משמעות אולם או, משמש לורם כבר ככל שיצמה מא אולם דוגמה משמעות הנוסח.
+
+<!-- Inline code -->
+
+Here is `in-line code block` example
+
+דוגמה ל`בלוק קוד בתוך השורה`. כאן יכול להתאים גם `text in English`, ולמעשה, ה-`css` מקונפג כך שברירת המחדל, טקסט כאן הוא משמאל לימין.
+
+<!-- Code block -->
+
+```js
+const sq = x => x*x;
+```
+
+<!-- Code block (highlight) -->
+
+```jsx
+// highlight-start
+import React, { Component } from "react"
+class Profile extends Component {
+// highlight-end
+  render() {
+    return <div></div> // highlight-line
+  }
+}
+export default Profile
+```
+
+<!-- Code block with title -->
+
+```js:title=example.js
+const number 1234;
+```
+
+<!-- Diff -->
+
+```diff
++ {
++ import React, { Component } from "react"
++
++ class SomeClass extends Component {
+-  render() {
+-    return (<div></div>)
+-   }
++ }
++ export default SomeClass
+```
+
