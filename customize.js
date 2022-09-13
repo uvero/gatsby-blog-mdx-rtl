@@ -4,8 +4,8 @@
 const config = {
   /* Site
   ========================================= */
-  title: `gatsby-blog-mdx`,          // Displayed in header
-  description: `This is my blog`,     // Site description
+  title: `בלוג Gatsby MDX`,          // Displayed in header
+  description: `בלוג ב-Gatsby JS עם טקסט בעברית מימין לשמאל ועם MDX`,     // Site description
   maxWidth: "768px",                  // Max width of website
   enableAbout: true,                  // Enables about page
   siteUrl: `https://yourDomain.com/`, // For sitemap & RSS feed
@@ -13,8 +13,8 @@ const config = {
 
   /* Profile
   ========================================= */
-  author: `Author Name`,                             // Name shows on profile
-  profileDescription: "{Edit me in customize.js}",   // Shows under author name
+  author: `פלוני אלמוני`,                             // Name shows on profile
+  profileDescription: "{ערוך אותי בקובץ customize.js}",   // Shows under author name
   profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
