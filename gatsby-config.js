@@ -3,6 +3,7 @@ const rss = require("./gatsby-rss")
 
 module.exports = {
   siteMetadata: config,
+  pathPrefix: `/gatsby-blog-mdx-rtl`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,

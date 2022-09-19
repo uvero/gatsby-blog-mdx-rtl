@@ -6,9 +6,9 @@ const config = {
   ========================================= */
   title: `בלוג Gatsby MDX`,          // Displayed in header
   description: `בלוג ב-Gatsby JS עם טקסט בעברית מימין לשמאל ועם MDX`,     // Site description
-  maxWidth: "768px",                  // Max width of website
+  maxWidth: 768,                  // Max width of website
   enableAbout: true,                  // Enables about page
-  siteUrl: `https://yourDomain.com/`, // For sitemap & RSS feed
+  siteUrl: `https://uvero.github.io/gatsby-blog-mdx-rtl/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
 
   /* Profile
@@ -50,8 +50,8 @@ const config = {
   defaultTheme: "dark",                      // Options: dark / light -- applied to first visitors
   showTimeToRead: true,                      // Shows time to read for each post in main page
   breakCodeLines: false,                      // Breaks long code lines instead of having horizontal scroll
-  faviconSrc: `_assets/icon-code.png`,        // Favicon
-  gaTrackingId: ``,                           // Your google analytics tracking id--i.e. UA-*****
+  faviconSrc: `_assets/profile.png`,        // Favicon
+  gaTrackingId: `UA-nothinghereyet`,                           // Your google analytics tracking id--i.e. UA-*****
   googleAdSenseId: ``,                        // Your google AdSense client id--i.e. ca-pub-****
 }
 
