@@ -15,12 +15,7 @@ const PostCard = ({ id, title, date, path, excerpt, timeToRead }) => {
           <h3>{title}</h3>
           {config.showTimeToRead && (
             <span>
-              <FontAwesomeIcon
-                className="icon-clock"
-                icon={faClock}
-                size="xs"
-              />
-              {timeToRead} minute read
+              {timeToRead} דקות קריאה
             </span>
           )}
           <p>{excerpt}</p>
