@@ -15,7 +15,7 @@ const config = {
   ========================================= */
   author: `פלוני אלמוני`,                             // Name shows on profile
   profileDescription: "{ערוך אותי בקובץ customize.js}",   // Shows under author name
-  profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
+  profileImageName: `profile.png`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
 
